@@ -402,9 +402,9 @@
         },
         {
             "name": "Deuteron fuel rod(氘核燃料棒)", "key_name": "deuteron_fuel_rod", "category": "crafting1",
-            "time": 6,
-            "ingredients": [["titanium_alloy", 1], ["deuterium", 10], ["super-magnetic_ring", 1]],
-            "product": ["deuteron_fuel_rod", 1]
+            "time": 12,
+            "ingredients": [["titanium_alloy", 1], ["deuterium", 20], ["super-magnetic_ring", 1]],
+            "product": ["deuteron_fuel_rod", 2]
         },
         {
             "name": "Annihilation constraint sphere(湮灭约束球)", "key_name": "annihilation_constraint_sphere", "category": "crafting1",
@@ -667,7 +667,7 @@
         {
             "name": "Small carrier rocket(小型运载火箭)", "key_name": "small_carrier_rocket", "category": "crafting1",
             "time": 6,
-            "ingredients": [["dyson_sphere_component", 2], ["deuteron_fuel_rod", 2], ["quantum_chip", 2]],
+            "ingredients": [["dyson_sphere_component", 2], ["deuteron_fuel_rod", 4], ["quantum_chip", 2]],
             "product": ["small_carrier_rocket", 1]
         },
         {
