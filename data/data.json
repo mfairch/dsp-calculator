@@ -396,7 +396,7 @@
         },
         {
             "name": "Deuterium(氘)", "key_name": "deuterium", "category": "miniature_particle_collider",
-            "time": 5,
+            "time": 2.5,
             "ingredients": [["hydrogen", 10]],
             "product": ["deuterium", 5]
         },
