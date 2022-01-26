@@ -21,7 +21,7 @@ import {renderSettings} from "./settings.js"
 import {getAssemblers} from "./assembler.js";
 
 function loadData(settings) {
-    d3.json("data/data.json").then(function (data) {
+    d3.json("data/data.json?{{ site.github.build_revision }}").then(function (data) {
         let items = getItems(data)
         let recipes = getRecipes(data, items)
         let buildings = getBuildings(data)
